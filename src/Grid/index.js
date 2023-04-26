@@ -17,7 +17,7 @@ export default function Grid (props) {
   )
 }
 
-// import React from "react";
+//  import React from "react";
 // import Square from "../Square";
 
 
