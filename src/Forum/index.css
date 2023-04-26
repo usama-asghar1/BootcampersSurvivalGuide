@@ -24,17 +24,19 @@ html {
   } */
   
   html{
-background-image:url('../lib/Background/W7BG2.jpg');
+    background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
+    
+/* background-image:url('../lib/Background/W7BG6.jpg'); */
 background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  color: #fff;
+  color: #F5FBEF;
   }
 
   .commentForm {
     display: flex;
-    color: #fff;
+    color: #F5FBEF;
     font-size: 1.5rem;
     font-weight: 700;
     flex-direction: column;
@@ -47,9 +49,17 @@ background-repeat: no-repeat;
     margin: 20px;
   }
   .topicsList {
-    list-style-type: none;
+    
+    background: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    padding: 20px;
+    
+    border-radius: 30px;
   }
 
+  .list {
+    list-style-type: none;
+  }
 
   .blogTitle {
     font-size: 1.5rem;
@@ -80,7 +90,7 @@ background-repeat: no-repeat;
     line-height: 1;
     border-radius: 50%;
     /* background colour gradient */
-    background: linear-gradient(45deg, #783EB6, #af4261);
+    background: linear-gradient(45deg, #9D69A3, #F9627D);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,16 +121,19 @@ background-repeat: no-repeat;
       align-items: center;
       align-content: center;
       text-align: center;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.5);
       border-radius: 30px;
-      width: 40%;
+      font-size: 1.5rem;
+      font-weight: 500;
+      width: 30%;
       margin: 0 auto;
+      padding: 10px;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
   }
   
       input {
       
-          background: linear-gradient(to bottom right,#783EB6, #af4261);
+          background: linear-gradient(45deg,#9D69A3, #F9627D);
           color:#fff;
           margin: 10px;
           padding: 10px;
@@ -136,7 +149,7 @@ background-repeat: no-repeat;
   
   
       textarea {
-          background: linear-gradient(to bottom right,#783EB6, #af4261);
+          background: linear-gradient(to bottom right,#9D69A3, #F9627D);
           max-width: 250px;
           border-radius: 10px;
           border: 1px solid #ccc;
@@ -145,7 +158,7 @@ background-repeat: no-repeat;
       }
 
       button {
-        background-color: #783EB6;
+        background-color: #80C445;
         border: none;
         margin: 10px;
         padding: 10px;
