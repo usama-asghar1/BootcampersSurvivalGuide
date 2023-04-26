@@ -1,0 +1,53 @@
+.grid-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.grid-subtitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .grid-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grid-cell a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .topic-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  
+  .grid-cell:hover .topic-list {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px; /* add a small margin to separate the topic list from the button text */
+    z-index: 1; /* ensure the topic list appears above other elements */
+  }
+  
