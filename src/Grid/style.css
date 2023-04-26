@@ -1,0 +1,29 @@
+/* .gridlayout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+  }
+  
+  .grid-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .grid-cell a {
+    text-decoration: none;
+    color: #333;
+  }
+  
