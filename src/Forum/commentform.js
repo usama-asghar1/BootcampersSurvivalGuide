@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function CommentForm({comments, setComments}) {
-  const [author, setName] = useState("Anon Author");
+  const [author, setName] = useState("");
   const [content, setContent] = useState("")
 
   function handleSubmitButton(event) {
@@ -11,11 +11,11 @@ function CommentForm({comments, setComments}) {
       return;
     }
     setComments([...comments, {author: author, content: content}])
-    setName("Anon Author");
+    setName("");
     setContent("");
   }
   return (
-    <div>
+    <div className = "commentForm">
       <form onSubmit={handleSubmitButton}>
         <label>
           {" "}

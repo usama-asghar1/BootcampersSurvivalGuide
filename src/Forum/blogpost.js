@@ -17,10 +17,15 @@ export default function BlogPost({ title, topics }) {
 
 export default function BlogPost({title, topics}) {
     return (
-      <div>
+      <div className = "blogTitle">
         <h1>{title}</h1>
-        <p>Topics covered this week: <br/>
-        {topics}</p>
+        <p>Topics covered this week: </p>
+        
+        <ul className = "topicsList">
+          <li>{topics[0]}</li>
+          <li>{topics[1]}</li>
+          <li>{topics[2]}</li>
+        </ul>
         
       </div>
     )
