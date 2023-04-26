@@ -2,7 +2,7 @@ import {useState} from "react";
 import CommentList from "./commentlist.js";
 import CommentForm from "./commentform.js";
 import BlogPost from "./blogpost.js";
-// import "./index.css";
+import "./index.css";
 import {useParams} from "react-router-dom";
 
 
