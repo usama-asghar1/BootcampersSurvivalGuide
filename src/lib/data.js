@@ -2,97 +2,113 @@ const weekGrid = [
     {
         id: 1,
         title: `Week 1`,
-        topics: "Git, Arrays, Functions",
+        topics: ["Git", "Arrays", "Functions"],
         pretext: [{id: 1, author: "Usama Asghar", content: " Hey guys, I'm struggling a little and wanted to ask for help. What is an array?"}, {id: 2, author: "Arwa Omran", content: "An array is a data structure that stores a collection of elements of the same data type, accessed using an index or a subscript."}]
     },
 
     {
     id: 2,
         title: `Week 2`,
-        topics:"Document Object Model, Event Listeners, Asynchronous Programming",
+        topics: ["Document Object Model", "Event Listener", "Asynchronous Programming"],
         pretext: [{id: 1, author: "Anjali M", content: " Testing"}, {id: 2, author: "James Ford", content: "Helloo"}]
     },
 
     {
     id: 3,
     title: `Week 3`, 
-    topics: "UI/UX, User Stories, Wireframes"
+    topics: ["UI/UX", "User Stories", "Wireframes"], 
+    pretext: []
         },
 
         {
     id: 4,
-    title: `Week 4`, 
-    topics: "Node.js, Unit Testing with Jest, End-to-end Testing with Playwright"
+    title: `Week 4`,
+    topics: ["Node.js", "Unit Testing with Jest","End-to-end Testing with Playwright"],
+    pretext: []
     },
 
     {
     id: 5,
     title: `Week 5`, 
-    topics: "React: Components, Props, State, Array Methods"
+    topics: [ "React: Components", " React: Props", "React: State"], 
+    pretext: []
     },
+    
     {
         id: 6,
         title: `Week 6`,
-        topics: "React:UseEffect, UseReducer, React Testing"
+        topics: ["React:UseEffect", "React:UseReducer","React:React Testing" ],
+        pretext: []
     },
 
     {
     id: 7,
         title: `Week 7`,
-        topics: " This was the Project Week. What did you learn?"
+        topics: [" This was the Project Week. What did you learn?"], 
+        pretext: []
     },
 
     {
     id: 8,
     title: `Week 8 `, 
-    topics: "Locked"
+    topics: ["Locked"], 
+    pretext: []
         },
 
         {
     id: 9,
     title: `Week 9 `, 
-    topics: "Locked"
+    topics: ["Locked"], 
+    pretext: []
     },
 
     {
     id: 10,
     title: `Week 10 `, 
-    topics: "Locked"
+    topics: ["Locked"], 
+    pretext: []
     }, 
     
     {
         id: 11,
         title: `Week 11 `,
-        topics: "Locked"
+        topics: ["Locked"], 
+        pretext: []
     },
 
     {
     id: 12,
         title: `Week 12 `,
-        topics: "Locked"
+        topics: ["Locked"], 
+        pretext: []
     },
 
     {
     id: 13,
     title: `Week 13 `,
-    topics: "Locked"
+    topics: ["Locked"], 
+    pretext: []
         },
 
         {
     id: 14,
     title: `Week 14 `,
-    topics: "Locked"
+    topics: ["Locked"], 
+    pretext: []
     },
 
     {
     id: 15,
     title: `Week 15 `,
-    topics: "Locked"
+    topics: ["Locked"], 
+    pretext: []
     },
+    
     {
         id: 16,
         title: `Week 16 `,
-        topics: "Locked"
+        topics: ["Locked"], 
+        pretext: []
         },
 ];
 

@@ -1,4 +1,4 @@
-
+/* 
 html {
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ html {
     align-content: center;
     text-align: center;
     background: linear-gradient(45deg, #f3ec78, #af4261);
-  }
+  } */
   
   .initials {
     font-size: 1.5rem;

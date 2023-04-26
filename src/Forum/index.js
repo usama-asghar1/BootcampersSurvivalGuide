@@ -2,7 +2,7 @@ import {useState} from "react";
 import CommentList from "./commentlist.js";
 import CommentForm from "./commentform.js";
 import BlogPost from "./blogpost.js";
-// import "./index.css";
+import "./index.css";
 import {useParams} from "react-router-dom";
 
 
@@ -16,6 +16,7 @@ function Forum({data}) {
   const week = data.find(week => week.id === parseInt(id));
   return (
     <div>
+
   <BlogPost title= {`Week ${id}`} topics={data[id-1].topics} />
 
   {/* call commentList and pass it the props of comments array  */}
