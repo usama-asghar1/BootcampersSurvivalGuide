@@ -3,11 +3,16 @@ import React from "react";
 import "./style.css";
 
 export default function Grid (props) {
-
+  
   const gridList = props.data.map(grid => (
     <div>
     <button className = "grid-cell" key={grid.id}>
     <Link to={`/forums/${grid.id}`}>Week {grid.id}</Link>
+    <ul className="topic-list">
+          <li>Topic 1</li>
+          <li>Topic 2</li>
+          <li>Topic 3</li>
+        </ul>
     </button>
      </div>
      ));
