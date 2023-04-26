@@ -1,7 +1,8 @@
 const weekGrid = [
     {
         id: 1,
-        title: `Week 1`
+        title: `Week 1`,
+        topics:["Computational Thinking", "Git", "Link JS to HTML", "Arrays", "Functions", "Objects", "Loops" ]
     },
 
     {
