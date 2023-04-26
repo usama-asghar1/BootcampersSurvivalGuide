@@ -10,7 +10,7 @@ function App() {
     <div>
     <Routes>
       <Route path = "/" element = {<Grid data = {weekGrid} />}/>
-      <Route path = "/forums/:id" element = {<Forum />}/>
+      <Route path = "/forums/:id" element = {<Forum data = {weekGrid}/>}/>
 
       <Route/>
     </Routes>
