@@ -16,7 +16,10 @@ function Forum({data}) {
   const week = data.find(week => week.id === parseInt(id));
   return (
     <div>
+
   <BlogPost title= {`Week ${id}`} topics={data[id-1].topics} />
+
+
 
   {/* call commentList and pass it the props of comments array  */}
   <CommentList comments={comments} />
