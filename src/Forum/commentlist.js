@@ -1,6 +1,6 @@
 import Comment from "./comment.js"; 
 
-function CommentList({comments}) {
+function CommentList({comments, data}) {
   return (
     <div id="CommentList">
     {/* loop over the comments array and give each comment the prop of id, author and content */}

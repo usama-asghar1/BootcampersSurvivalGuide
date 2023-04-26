@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Forum from './Forum/index.js';
 import {Link, Routes, Route} from "react-router-dom";
 import Grid from "./Grid/index.js";
@@ -10,7 +10,7 @@ function App() {
     <div>
     <Routes>
       <Route path = "/" element = {<Grid data = {weekGrid} />}/>
-      <Route path = "/forums/:id" element = {<Forum />}/>
+      <Route path = "/forums/:id" element = {<Forum data = {weekGrid}/>}/>
 
       <Route/>
     </Routes>

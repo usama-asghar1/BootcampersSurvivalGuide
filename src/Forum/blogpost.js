@@ -1,10 +1,9 @@
-export default function BlogPost({title, author, datePosted, content}) {
+export default function BlogPost({title, topics}) {
     return (
       <div>
         <h1>{title}</h1>
-        <p>{author}</p>
-        <p>{datePosted}</p>
-        <p>{content}</p>
+        <p>Topics covered this week: <br/>
+        {topics}</p>
         
       </div>
     )
