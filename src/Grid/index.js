@@ -19,7 +19,7 @@ export default function Grid (props) {
      
   return (
     <div>
-    <h1 className = "grid-title">School of Code Survival Guide</h1>
+    <h1 className = "grid-title">Bootcamper's Survival Guide</h1>
     <h2 className = "grid-subtitle">Click on a week to see the forum</h2>
     <div className = "grid-container">
 {gridList}
