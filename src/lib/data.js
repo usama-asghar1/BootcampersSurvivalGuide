@@ -2,13 +2,15 @@ const weekGrid = [
     {
         id: 1,
         title: `Week 1`,
-        topics: "Git, Arrays, Functions"
+        topics: "Git, Arrays, Functions",
+        pretext: [{id: 1, author: "Usama Asghar", content: " Hey guys, I'm struggling a little and wanted to ask for help. What is an array?"}, {id: 2, author: "Arwa Omran", content: "An array is a data structure that stores a collection of elements of the same data type, accessed using an index or a subscript."}]
     },
 
     {
     id: 2,
         title: `Week 2`,
-        topics:"Document Object Model, Event Listeners, Asynchronous Programming"
+        topics:"Document Object Model, Event Listeners, Asynchronous Programming",
+        pretext: [{id: 1, author: "Anjali M", content: " Testing"}, {id: 2, author: "James Ford", content: "Helloo"}]
     },
 
     {
