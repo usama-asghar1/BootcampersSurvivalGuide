@@ -19,8 +19,6 @@ function Forum({data}) {
 
   <BlogPost title= {`Week ${id}`} topics={data[id-1].topics} />
 
-
-
   {/* call commentList and pass it the props of comments array  */}
   <CommentList comments={comments} />
   <CommentForm comments={comments} setComments={setComments}/>

@@ -22,7 +22,7 @@ const weekGrid = [
 
         {
     id: 4,
-    title: `Week 4`, 
+    title: `Week 4`,
     topics: ["Node.js", "Unit Testing with Jest","End-to-end Testing with Playwright"],
     pretext: []
     },
@@ -33,6 +33,7 @@ const weekGrid = [
     topics: [ "React: Components", " React: Props", "React: State"], 
     pretext: []
     },
+    
     {
         id: 6,
         title: `Week 6`,
