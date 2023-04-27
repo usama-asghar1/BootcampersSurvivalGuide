@@ -11,14 +11,14 @@ function Login() {
       <div className="container">
         <h1>Login</h1>
         <form>
-          <label htmlFor="username">Username:</label>
-          <input type="text" id="username" name="username" />
+          <label className = "signin-label" htmlFor="username">Username:</label>
+          <input className = "signin-input" type="text" id="username" name="username" />
           <br /><br />
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" />
+          <label className = "signin-label" htmlFor="password">Password:</label>
+          <input className = "signin-input" type="password" id="password" name="password" />
           <br /><br />
           <Link to="/grid">
-            <button type="submit" value="Submit">Submit</button>
+            <button className = "signin-button" type="submit" value="Submit">Submit</button>
           </Link>
         </form>
       </div>
