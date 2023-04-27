@@ -5,11 +5,11 @@ import './index.css';
 function Login() {
     return (
      <div>
-        <h1 className = "grid-title">Bootcamper's Survival Guide</h1>
+        <h1 className = "grid-title">Bootcamper's Survival Guide 🚀</h1>
     
 
       <div className="container">
-        <h1>Login</h1>
+        <h1 className = "login-heading">Login</h1>
         <form>
           <label className = "signin-label" htmlFor="username">Username:</label>
           <input className = "signin-input" type="text" id="username" name="username" />
