@@ -12,8 +12,6 @@ function Forum({data}) {
   //created comments array
   const  {id} = useParams()
   const [comments, setComments] = useState(data[id-1].pretext);
-  // [{id: 1, author: "Donald Mouse", content: "This is the 1st comment"}, {id: 2, author: "Mickey Duck", content: "This is the 2nd comment"}]
-  const week = data.find(week => week.id === parseInt(id));
   return (
     <div>
 

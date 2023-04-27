@@ -23,6 +23,64 @@ html {
     background: linear-gradient(45deg, #f3ec78, #af4261);
   } */
   
+  html{
+    background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
+    
+/* background-image:url('../lib/Background/W7BG6.jpg'); */
+background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #F5FBEF;
+  }
+
+  .forumTitle {
+    font-size: 35px;
+  }
+  .commentForm {
+    display: flex;
+    color: #F5FBEF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px;
+  }
+  .topicsList {
+    
+    background: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    padding: 20px;
+    
+    border-radius: 30px;
+  }
+
+  .list {
+    list-style-type: none;
+  }
+
+  .blogTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    /* background colour gradient */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
   .initials {
     font-size: 1.5rem;
     width: 50px;
@@ -35,7 +93,7 @@ html {
     line-height: 1;
     border-radius: 50%;
     /* background colour gradient */
-    background: linear-gradient(45deg, #f3ec78, #af4261);
+    background: linear-gradient(45deg, #9D69A3, #F9627D);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,13 +124,20 @@ html {
       align-items: center;
       align-content: center;
       text-align: center;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.5);
       border-radius: 30px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      width: 70%;
+      margin: 0 auto;
+      padding: 10px;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
   }
   
       input {
       
-          background: linear-gradient(to bottom right, #43c6ac, #00a8e8);
+          background: linear-gradient(45deg,#9D69A3, #F9627D);
+          color:#fff;
           margin: 10px;
           padding: 10px;
           border-radius: 10px;
@@ -87,11 +152,23 @@ html {
   
   
       textarea {
-          background: linear-gradient(to bottom right, #43c6ac, #00a8e8);
+          background: linear-gradient(to bottom right,#9D69A3, #F9627D);
           max-width: 250px;
           border-radius: 10px;
           border: 1px solid #ccc;
+          color: #fff;
           padding: 10px;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      button {
+        background-color: #80C445;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        color: #fff;
+        font-weight: 700;
+        border: 1px solid #ccc;
+        border-radius: 10px;
       }
       
