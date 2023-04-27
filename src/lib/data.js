@@ -10,7 +10,7 @@ const weekGrid = [
     id: 2,
         title: `Week 2`,
         topics: ["Document Object Model", "Event Listener", "Asynchronous Programming"],
-        pretext: [{id: 1, author: "Anjali M", content: " Testing"}, {id: 2, author: "James Ford", content: "Helloo"}]
+        pretext: [{id: 2, author: "Anjali M", content: " Testing"}, {id: 2, author: "James Ford", content: "Helloo"}]
     },
 
     {
@@ -44,72 +44,72 @@ const weekGrid = [
     {
     id: 7,
         title: `Week 7`,
-        topics: [" This was the Project Week. What did you learn?"], 
+        topics: [null, "This was the Project Week. What did you learn?"], 
         pretext: []
     },
 
     {
     id: 8,
     title: `Week 8 `, 
-    topics: ["Locked"], 
+    topics: [null, "Locked 🔒"], 
     pretext: []
         },
 
         {
     id: 9,
     title: `Week 9 `, 
-    topics: ["Locked"], 
+    topics: [null, "Locked 🔒"], 
     pretext: []
     },
 
     {
     id: 10,
     title: `Week 10 `, 
-    topics: ["Locked"], 
+    topics: [null, "Locked 🔒"], 
     pretext: []
     }, 
     
     {
         id: 11,
         title: `Week 11 `,
-        topics: ["Locked"], 
+        topics: [null, "Locked 🔒"], 
         pretext: []
     },
 
     {
     id: 12,
         title: `Week 12 `,
-        topics: ["Locked"], 
+        topics: [null, "Locked 🔒"], 
         pretext: []
     },
 
     {
     id: 13,
     title: `Week 13 `,
-    topics: ["Locked"], 
+    topics: [null, "Locked 🔒"], 
     pretext: []
         },
 
         {
     id: 14,
     title: `Week 14 `,
-    topics: ["Locked"], 
+    topics: [null, "Locked 🔒"], 
     pretext: []
     },
 
     {
     id: 15,
     title: `Week 15 `,
-    topics: ["Locked"], 
+    topics: [null, "Locked 🔒"], 
     pretext: []
     },
     
     {
-        id: 16,
-        title: `Week 16 `,
-        topics: ["Locked"], 
-        pretext: []
-        },
+    id: 16,
+    title: `Week 16 `,
+    topics: [null, "Locked 🔒"], 
+    pretext: []
+    },
 ];
 
 export default weekGrid;
