@@ -15,7 +15,7 @@ function CommentForm({comments, setComments}) {
     setContent("");
   }
   return (
-    <div>
+    <div className = "commentForm">
       <form onSubmit={handleSubmitButton}>
         <label>
           {" "}
