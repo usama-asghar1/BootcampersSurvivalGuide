@@ -55,6 +55,7 @@ background-repeat: no-repeat;
     font-family: 'M PLUS Code Latin', sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
+    line-height: 1.5;
   }
 
   .initials {
@@ -108,12 +109,12 @@ background-repeat: no-repeat;
       text-align: justify;
       background: rgba(0, 0, 0, 0.5);
       border-radius: 30px;
-      font-size: 1.5rem;
       font-weight: 500;
       width: 70%;
       margin: 0 auto;
       padding: 10px;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+      
   }
 
   .forumTitle {
@@ -144,64 +145,79 @@ background-repeat: no-repeat;
       font-family: 'M PLUS Code Latin', sans-serif;
       font-weight: 500;
       letter-spacing: 1px;
-      margin: 10px;
       padding: 10px;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 500;
       margin: 0 auto;
       padding: 10px;
   }
+
+  .commentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+
+  .commentForm button {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #318734;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+  }
   
-      input {
-      
-          background: linear-gradient(45deg,#9D69A3, #F9627D);
-          color:#fff;
-          margin: 10px;
-          padding: 10px;
-          border-radius: 10px;
-          border: 1px solid #ccc;
-          margin: 10px;
-          /* shadow */
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          /* transition */
-          transition: all 0.3s ease-in-out;
+  .commentForm button:hover {
+    background-color: #17741d;
+  }
+  
+  .commentForm input {
+    background: linear-gradient(to bottom right,#9D69A3, #F9627D);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   
   }
   
   
-      textarea {
+  .commentForm textarea {
           background: linear-gradient(to bottom right,#9D69A3, #F9627D);
-          max-width: 250px;
           border-radius: 10px;
           border: 1px solid #ccc;
           color: #fff;
           padding: 10px;
+          width: 100%;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
 
-      button {
-        background-color: #80C445;
-        border: none;
-        margin: 10px;
-        padding: 10px;
-        color: #fff;
-        font-weight: 700;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-      }
-      
-      .commentForm {
-        display: flex;
-        color: #F5FBEF;
-        font-size: 1.5rem;
-        font-weight: 700;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-        border-radius: 30px;
-        margin: 20px;
-      }
-    
+.commentForm label {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    width: 500px
+}
