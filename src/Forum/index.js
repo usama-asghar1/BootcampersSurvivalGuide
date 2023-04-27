@@ -5,9 +5,6 @@ import BlogPost from "./blogpost.js";
 import "./index.css";
 import {useParams} from "react-router-dom";
 
-
-
-
 function Forum({data}) {
   //created comments array
   const  {id} = useParams()

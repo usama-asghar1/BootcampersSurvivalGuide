@@ -37,7 +37,7 @@ const weekGrid = [
     {
         id: 6,
         title: `Week 6`,
-        topics: ["React:UseEffect", "React:UseReducer","React:React Testing" ],
+        topics: ["React: UseEffect", "React: UseReducer","React: React Testing" ],
         pretext: []
     },
 
