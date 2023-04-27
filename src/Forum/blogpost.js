@@ -12,7 +12,6 @@ export default function BlogPost({title, topics}) {
           <li>{topics[2]}</li>
         </ul>
         </div>
-        
       </div>
     )
   
