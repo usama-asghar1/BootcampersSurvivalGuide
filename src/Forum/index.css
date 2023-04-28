@@ -1,28 +1,4 @@
-/* 
-html {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  body {
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    background: linear-gradient(45deg, #f3ec78, #af4261);
-  } */
-  
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bruno+Ace+SC&family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap');
   html{
     background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
     
@@ -34,37 +10,7 @@ background-repeat: no-repeat;
   color: #F5FBEF;
   }
 
-  .forumTitle {
-    font-size: 35px;
-  }
-  .commentForm {
-    display: flex;
-    color: #F5FBEF;
-    font-size: 1.5rem;
-    font-weight: 700;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    border-radius: 30px;
-    margin: 20px;
-  }
-  .topicsList {
-    
-    background: rgba(0, 0, 0, 0.5);
-    width: 30%;
-    padding: 20px;
-    
-    border-radius: 30px;
-  }
-
-  .list {
-    list-style-type: none;
-  }
-
-  .blogTitle {
+  .blog-header {
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
@@ -81,6 +27,37 @@ background-repeat: no-repeat;
     margin: 10px;
     padding: 10px;
   }
+
+  .blog-title {
+    font-size: 70px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    text-shadow: 10px 10px 2px rgba(0,0,0,0.5);
+  }
+
+  .topics-list {
+    background: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    
+  }
+
+  .topics-list-heading {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 10px 10px 2px rgba(0,0,0,0.5);
+  }
+
+  .topics-list-list {
+    list-style-type: none;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+
   .initials {
     font-size: 1.5rem;
     width: 50px;
@@ -102,6 +79,7 @@ background-repeat: no-repeat;
     margin: 10px;
     padding: 10px;
   }
+
   #inline_name {
     display: flex;
     flex-direction: row;
@@ -110,65 +88,136 @@ background-repeat: no-repeat;
     align-items: center;
   }
   
-  img {
+
+
+  /* img {
     width: 250px;
     height: 250px;
     margin: 10px;
     border-radius: 10px;
-  }
-  #CommentList {
+  } */
+
+
+ 
+  .forumSection {
       display: flex;
       flex-direction: column;
       justify-content: center;
       justify-items: center;
-      align-items: center;
+      align-items: justify;
       align-content: center;
-      text-align: center;
+      text-align: justify;
       background: rgba(0, 0, 0, 0.5);
       border-radius: 30px;
-      font-size: 1.5rem;
       font-weight: 500;
       width: 70%;
       margin: 0 auto;
       padding: 10px;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
-  }
-  
-      input {
       
-          background: linear-gradient(45deg,#9D69A3, #F9627D);
-          color:#fff;
-          margin: 10px;
-          padding: 10px;
-          border-radius: 10px;
-          border: 1px solid #ccc;
-          margin: 10px;
-          /* shadow */
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          /* transition */
-          transition: all 0.3s ease-in-out;
+  }
+
+  .forumTitle {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      /* background colour gradient */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      margin: 10px;
+      padding: 10px;
+      font-family: 'Bruno Ace SC', cursive;
+      font-size: 30px;
+      letter-spacing: 2px;
+      text-shadow: 10px 10px 2px rgba(0,0,0,0.5);
+      
+  }
+
+  #CommentList {
+      list-style-type: none;
+      font-family: 'M PLUS Code Latin', sans-serif;
+      font-weight: 500;
+      letter-spacing: 1px;
+      padding: 10px;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 0 auto;
+      padding: 10px;
+  }
+
+  .commentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+
+  .commentForm button {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #318734;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+  }
+  
+  .commentForm button:hover {
+    background-color: #17741d;
+  }
+  
+  .commentForm input {
+    background: linear-gradient(to bottom right,#9D69A3, #F9627D);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   
   }
   
   
-      textarea {
+  .commentForm textarea {
           background: linear-gradient(to bottom right,#9D69A3, #F9627D);
-          max-width: 250px;
           border-radius: 10px;
           border: 1px solid #ccc;
           color: #fff;
           padding: 10px;
+          width: 100%;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
 
-      button {
-        background-color: #80C445;
-        border: none;
-        margin: 10px;
-        padding: 10px;
-        color: #fff;
-        font-weight: 700;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-      }
-      
+.commentForm label {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    width: 500px
+}
