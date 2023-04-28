@@ -10,7 +10,7 @@ const weekGrid = [
     id: 2,
         title: `Week 2`,
         topics: ["Document Object Model", "Event Listener", "Asynchronous Programming"],
-        pretext: [{id: 2, author: "Anjali M", content: " Testing"}, {id: 2, author: "James Ford", content: "Helloo"}]
+        pretext: [{id: 2, author: "Anjali Muthusamy", content: " Hey team, I'm struggling with understanding event listeners. Could anyone help me understand why we use them?"}, {id: 2, author: "James Ford", content: "They are functions that wait for a specific event to occur on a webpage, such as a click or a hover, and then execute a specified action or set of actions."}]
     },
 
     {
