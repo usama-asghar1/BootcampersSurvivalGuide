@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Bootcamper's Survival Guide - One Week Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React app that is designed to help School of Code Bootcamper's in their learning journey by separate forums for each week of the course. The app allows users to post questions and answers and allows users to refer back to any of the weeks.
 
-## Available Scripts
+This project task was a way of consolidating everything I have learnt so far. It was built in React in an agile team of 4 and was ideated, designed, built and presented in 5 days.
 
-In the project directory, you can run:
+## Lessons Learned
 
-### `npm start`
+- Blogpost and comment form created - broken down into individual compenents using a component tree, with each component having its own state and props using some React tools, such as useState and useEffect. This was the first time I had done this and it was a great way to understand how to break down a problem into smaller parts and then build it back up again.
+- Use of CSSGrid and mapping through arrays - I was able to understand how to re-render components and display them in a grid structure. Also, understanding when it is better to not use an imported library as they can be very bloated.
+- Researching React Router - This was again the first time I had done this. With the help of a colleague, I was able to understand how to use components from a front end library. Also understanding when it is better to not use a library as they can be very bloated.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Client:** React, JavaScript, HTML, CSS
 
-### `npm test`
+## Installation and Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You will need `node` and `npm` installed on your machine.
 
-### `npm run build`
+Clone the repo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`https://github.com/usama-asghar1/BootcampersSurvivalGuide.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Move into the `my-app` directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`cd my-app`
 
-### `npm run eject`
+Install the required npm modules:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Improvements
 
-## Learn More
+Potential future improvements:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Add a avigation bar at the top of the page that has a Home Button, Burger Icon drop down menu etc.
+- Add a backend so that the each forum is stored in a database and can be retrieved 
+- Add authentication for the login page so that users can login in their own profile and post questions and answers
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Press Login to move into the main page NOTE: There is no authentication so you can press login without entering any details
+2. Press on the week you want to view, hover to see different topics
+3. Add a comment to each forum NOTE: Only week 1 and week 2 have a comment section hard coded in
