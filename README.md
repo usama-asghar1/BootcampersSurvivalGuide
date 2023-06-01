@@ -1,4 +1,4 @@
-# Bootcamper's Survival Guide - One Week Project
+# Bootcamper's Survival Guide 
 
 A React app that is designed to help School of Code Bootcamper's in their learning journey by separate forums for each week of the course. The app allows users to post questions and answers and allows users to refer back to any of the weeks.
 
@@ -38,7 +38,7 @@ Start the application:
 
 Potential future improvements:
 
-- Add a avigation bar at the top of the page that has a Home Button, Burger Icon drop down menu etc.
+- Add a navigation bar at the top of the page that has a Home Button, Burger Icon drop down menu etc.
 - Add a backend so that the each forum is stored in a database and can be retrieved 
 - Add authentication for the login page so that users can login in their own profile and post questions and answers
 
