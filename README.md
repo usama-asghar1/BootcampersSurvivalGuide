@@ -1,6 +1,6 @@
 # Bootcamper's Survival Guide 
 
-A React app that is designed to help School of Code Bootcamper's in their learning journey by separate forums for each week of the course. The app allows users to post questions and answers and allows users to refer back to any of the weeks.
+A React app that is designed to help School of Code Bootcamper's in their learning journey by creating separate forums for each week of the course. The app allows users to post questions and answers and allows users to refer back to any of the weeks at any point.
 
 This project task was a way of consolidating everything I have learnt so far. It was built in React in an agile team of 4 and was ideated, designed, built and presented in 5 days.
 
