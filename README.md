@@ -31,9 +31,9 @@ Start the application:
 
 ## Usage
 
-1 - Press Login to move into the main page NOTE: There is no authentication so you can press login without entering any details
-2 - Press on the week you want to view, hover to see different topics
-3 - Add a comment to each forum NOTE: Only week 1 and week 2 have a comment section hard coded in
+1. Press Login to move into the main page NOTE: There is no authentication so you can press login without entering any details
+2. Press on the week you want to view, hover to see different topics
+3. Add a comment to each forum NOTE: Only week 1 and week 2 have a comment section hard coded in
    
 ## Lessons Learned
 
