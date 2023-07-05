@@ -6,6 +6,7 @@ This project task was a way of consolidating everything I have learnt so far. It
 
 ## Installation and Setup Instructions
 Available to view on netlify live server - https://bootcampers-survival-guide.netlify.app
+
 Please see usage below.
 
 Alternatively:
