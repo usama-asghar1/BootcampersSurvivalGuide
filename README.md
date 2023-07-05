@@ -5,6 +5,10 @@ A React app that is designed to help School of Code Bootcamper's in their learni
 This project task was a way of consolidating everything I have learnt so far. It was built in React in an agile team of 4 and was ideated, designed, built and presented in 5 days.
 
 ## Installation and Setup Instructions
+Available to view on netlify live server - https://bootcampers-survival-guide.netlify.app
+Please see usage below.
+
+Alternatively:
 
 You will need `node` and `npm` installed on your machine.
 
