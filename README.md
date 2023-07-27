@@ -35,12 +35,6 @@ Start the application:
 2. Press on the week you want to view, hover to see different topics
 3. Add a comment to each forum NOTE: Only week 1 and week 2 have a comment section hard coded in
    
-## Lessons Learned
-
-- Blogpost and comment form created - broken down into individual compenents using a component tree, with each component having its own state and props using some React tools, such as useState and useEffect. This was the first time I had done this and it was a great way to understand how to break down a problem into smaller parts and then build it back up again.
-- Use of CSSGrid and mapping through arrays - I was able to understand how to re-render components and display them in a grid structure. Also, understanding when it is better to not use an imported library as they can be very bloated.
-- Researching React Router - This was again the first time I had done this. With the help of a colleague, I was able to understand how to use components from a front end library. Also understanding when it is better to not use a library as they can be very bloated.
-
 ## Tech Stack
 
 **Client:** React, JavaScript, HTML, CSS
