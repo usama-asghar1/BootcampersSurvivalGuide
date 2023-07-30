@@ -4,6 +4,12 @@ A React app that is designed to help School of Code Bootcamper's in their learni
 
 This project task was a way of consolidating everything I have learnt so far. Designed during Project Week 7 in an agile team of 4 called Capital Coders and was ideated, designed, built and presented in 5 days. 
 
+## Usage
+
+1. Press Login to move into the main page. **NOTE: There is no authentication so you can press login without entering any details**
+2. Press on the week you want to view, hover to see different topics.
+3. Add a comment to each forum **NOTE: Only week 1 and week 2 have a comment section hard coded in**
+
 ## Installation and Setup Instructions
 Available to view on netlify live server - https://bootcampers-survival-guide.netlify.app
 
@@ -28,12 +34,6 @@ Install the required npm modules:
 Start the application:
 
 `npm start`
-
-## Usage
-
-1. Press Login to move into the main page NOTE: There is no authentication so you can press login without entering any details
-2. Press on the week you want to view, hover to see different topics
-3. Add a comment to each forum NOTE: Only week 1 and week 2 have a comment section hard coded in
    
 ## Tech Stack
 
