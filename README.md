@@ -1,5 +1,6 @@
 # Bootcamper's Survival Guide 
 **NOTE: There is no authentication so you can press login without entering any details**
+
 A React app that is designed to help School of Code Bootcamper's in their learning journey by creating separate forums for each week of the course. The app allows users to post questions and answers and allows users to refer back to any of the weeks at any point.
 
 This project task was a way of consolidating everything I have learnt so far. Designed during Project Week 7 in an agile team of 4 called Capital Coders and was ideated, designed, built and presented in 5 days. 
