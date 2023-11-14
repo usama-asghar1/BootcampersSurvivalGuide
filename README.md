@@ -1,5 +1,6 @@
 # Bootcamper's Survival Guide 
-**NOTE: There is no authentication so you can press login without entering any details**
+
+**NOTE: Only week 1 and week 2 have a comment section hard coded in**
 
 A React app that is designed to help School of Code Bootcamper's in their learning journey by creating separate forums for each week of the course. The app allows users to post questions and answers and allows users to refer back to any of the weeks at any point.
 
@@ -7,9 +8,8 @@ This project task was a way of consolidating everything I have learnt so far. De
 
 ## Usage
 
-1. Press Login to move into the main page. 
-2. Press on the week you want to view, hover to see different topics.
-3. Add a comment to each forum **NOTE: Only week 1 and week 2 have a comment section hard coded in**
+1. Press on the week you want to view, hover to see different topics.
+2. Add a comment to each forum **NOTE: Only week 1 and week 2 have a comment section hard coded in**
 
 ## Installation and Setup Instructions
 Available to view on netlify live server - https://bootcampers-survival-guide.netlify.app
